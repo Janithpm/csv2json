@@ -8,16 +8,16 @@ This Python script converts a CSV file to JSON format.
 
 ## Usage
 
-1. Download the `csv_to_json.py` script from the [releases](https://github.com/Janithpm/csv2json/releases) page.
+1. Download the `csv2json.py` script from the [releases](https://github.com/Janithpm/csv2json/releases) page.
 
 2. Open a terminal or command prompt.
 
-3. Navigate to the directory containing the downloaded `csv_to_json.py` file.
+3. Navigate to the directory containing the downloaded `csv2json.py` file.
 
 4. Run the script using the following command:
 
    ```bash
-   python csv_to_json.py <csv_file>
+   python csv2json.py <csv_file>
 
 
 ## Example
@@ -32,7 +32,7 @@ Jane Smith,Marketing,45000
 To convert this CSV file to JSON, you would run the following command:
 
    ```bash
-   python csv_to_json.py input.csv
+   python csv2json.py input.csv
    ```
 The script will generate a JSON file named `input.json` with the following content:
 
