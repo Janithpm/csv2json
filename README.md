@@ -21,3 +21,39 @@ This Python script converts a CSV file to JSON format.
    ```bash
    python csv_to_json.py <csv_file>
 
+
+## Example
+
+Let's say you have a CSV file named `input.csv` with the following content:
+```bash
+Name,Department,Salary
+John Doe,Engineering,50000
+Jane Smith,Marketing,45000
+```
+
+To convert this CSV file to JSON, you would run the following command:
+
+   ```bash
+   python csv_to_json.py input.csv
+   ```
+The script will generate a JSON file named input.json with the following content:
+
+```bash
+[
+    {
+        "Name": "John Doe",
+        "Department": "Engineering",
+        "Salary": "50000"
+    },
+    {
+        "Name": "Jane Smith",
+        "Department": "Marketing",
+        "Salary": "45000"
+    }
+]
+
+```
+
+Feel free to adjust the content and filenames as per your needs.
+
+
