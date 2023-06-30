@@ -36,7 +36,7 @@ To convert this CSV file to JSON, you would run the following command:
    ```bash
    python csv_to_json.py input.csv
    ```
-The script will generate a JSON file named input.json with the following content:
+The script will generate a JSON file named `input.json` with the following content:
 
 ```bash
 [
